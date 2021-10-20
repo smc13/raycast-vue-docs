@@ -69,7 +69,7 @@ function DocListItem(props: { doc: Document }) {
       key={doc.id}
       title={doc.title}
       subtitle={doc.subtitle}
-      icon="vuejs.png"
+      icon="vue.png"
       actions={
         <ActionPanel>
           <OpenInBrowserAction url={doc.url} />
